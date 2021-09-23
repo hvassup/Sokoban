@@ -1,0 +1,86 @@
+; Lauryn Hawa	-2	0
+; Meredith Angelo	-1	0
+; Brigette Virji	-2	0
+; Hazel	-2	0
+; Victoria	-1	0
+; Gabrielle Domville	-2	0
+; Hillary	-1	0
+; Mandy	-2	0
+; Teresa	-1	0
+; Katherine	9.615216970443726	463203
+; Emily McKiddie	3.5550572872161865	134400
+; Lucy Leatherby	5.030327081680298	208054
+; Anabelle	-2	0
+; Adriana	-2	0
+; Megan	97.06990957260132	2171486
+; Cordelia Silsbury	-2	0
+; Lisa	-2	0
+; Kaitlyn Gauge	-1	0
+; Tara Gelson	31.289968490600586	1687643
+; Hazel	-2	0
+; Cindy	-1	0
+; Laura	-2	0
+; Tracy	-1	0
+; Cassandra	-2	0
+; Lucy Leatherby	-2	0
+; Cynthia Clayworth	-2	0
+; Tiffany Gauge	-1	0
+; Meredith Angelo	-1	0
+; Vanessa McKiddie	-1	0
+; Andrea Wadd	-1	0
+; Melanie	-1	0
+; Teresa	-1	0
+; Felicia McCalman	-1	0
+; Christine	65.26016855239868	3681312
+; Lisa	48.48024368286133	2099582
+; Deborah Wadd	31.486778736114502	1109267
+; Trisha Gauge	-1	0
+; Bernadette Clayworth	-1	0
+; Michelle	0.021906375885009766	1807
+; Harriet Gauge	9.05995774269104	369675
+; Victoria	-1	0
+; Jessica	16.840542554855347	588151
+; Cecile Clayworth	-1	0
+; Veronica	-2	0
+; Briana Gelson	-1	0
+; Melanie	-1	0
+; Jennifer Silsbury	-1	0
+; Lisa	-2	0
+; Marisa	-2	0
+; Lucinda	-2	0
+; Sophie	-2	0
+; Sophia	0.6234464645385742	42357
+; Anabelle	-2	0
+; Heidi	3.7199230194091797	186907
+; Katie Leatherby	1.6903879642486572	7696
+; Tracy	-1	0
+; Hayley	8.860027074813843	20325
+; Abigail	-2	0
+; Clare	-2	0
+; Felicia McCalman	-1	0
+; Kaitlyn Gauge	-1	0
+; Melanie	-1	0
+; Clare	-2	0
+; Florence Gauge	-2	0
+; Helen	-2	0
+; Jane	-2	0
+; Sophia	0.46893954277038574	42357
+; Deborah Wadd	21.979556560516357	1109267
+; Abigail	-2	0
+; Marisa	-2	0
+; Christine	59.503440380096436	3681312
+; Fiona	1.140953779220581	106032
+; Bernadette Clayworth	-1	0
+; Dawn	5.70425271987915	455776
+; Emily McKiddie	2.1300230026245117	136086
+; Kimberley Helling	-2	0
+; Hayley	0.29804229736328125	20325
+; Diane	5.719933271408081	407335
+; Victoria	-1	0
+; Monica	-1	0
+; Gabrielle Domville	-2	0
+; Amanda Clayworth	-1	0
+; Jennifer Silsbury	-1	0
+; Florence Gauge	-2	0
+; Karen	253.20593571662903	10595354
+; Michelle	0.024910926818847656	1807

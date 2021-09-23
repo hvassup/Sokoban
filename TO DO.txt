@@ -1,0 +1,23 @@
+State + Actions -> Possible states
+
+Represent the game state to not include the ROBOT or CAN and store their coordinates separately
+    To avoid handling what the square should 'change to' when moving the ROBOT or CAN
+
+Therefore the 'map' of the game state is always the same, the only updated values are the CAN and ROBOT coord
+
+Success criteria = coordinate(s) of the can(s) are the same as the goal(s)
+
+LEGAL moves
+    ROBOT can move into NONE and CAN and GOAL and CAN_ON_GOAL
+
+ILLEGAL moves
+    ROBOT cannot move the CAN against two walls
+    ROBOT cannot push a CAN through a wall
+    ROBOT cannot move through a WALL
+    ROBOT cannot push a can through a can
+    
+Tree traversal
+    - BFS
+
+Actions -> ROBOT behaviours
+
