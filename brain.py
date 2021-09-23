@@ -19,14 +19,14 @@ def solve(maze):
     print('Can positions:', all_cans)
     print('Goal positions:', goal_pos)
     print()
-    
-    if len(all_cans) > len(goal_pos):
+
+    if len(all_cans) < len(goal_pos):
         print('Unsolvable.')
         return -1, 0
-    
+
     try:
         # path = BFS(maze, robot_pos, all_cans, goal_pos, [(robot_pos, all_cans)])
-        path, explored_states = BFS(maze, robot_pos, all_cans, goal_pos, (robot_pos, ))    
+        path, explored_states = BFS(maze, robot_pos, all_cans, goal_pos, (robot_pos, ))
         print()
         print(path)
         print('Path length:', len(path))

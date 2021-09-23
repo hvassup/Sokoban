@@ -41,7 +41,7 @@ def direction_deg_diff(dir1, dir2):
 
 def is_pathway(maze, coord):
     x, y = coord
-    neighbours = get_neighbours(maze, x, y)
+    neighbours = list(get_neighbours(maze, x, y))
     if len(neighbours) == 2:
         if neighbours[0][0] == neighbours[1][0] or neighbours[0][1] == neighbours[1][1]:
             return True

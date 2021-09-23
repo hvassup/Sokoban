@@ -1,7 +1,7 @@
 import random
 
 from brain import solve
-from sokoban_map import string_map_to_state
+from sokoban_map import string_map_to_state, find_can_pos
 
 
 def file_to_maps():
@@ -21,11 +21,14 @@ def file_to_maps():
 maps = file_to_maps()
 results = []
 
-shuffled_keys = list(maps.keys())
-random.shuffle(shuffled_keys)
-for k in shuffled_keys:
-    if k not in ['; Tara Gelson']:  # '; Samantha Gelson']:W
-        continue
+
+sorted_keys = sorted(list(maps.keys()), key=lambda k: len(find_can_pos(string_map_to_state(maps[k]))))
+for k in sorted_keys:
+    print(len(find_can_pos(string_map_to_state(maps[k]))))
+# random.shuffle(shuffled_keys)
+for k in sorted_keys:
+    """if k not in ['; Emily McKiddie']:  # '; Tara Gelson']:  # '; Samantha Gelson']:W
+        continue"""
     print('Running on maze:', k)
     maze = string_map_to_state(maps[k])
     solve_time, explored_states = solve(maze)

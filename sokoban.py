@@ -20,6 +20,7 @@ def is_goal(maze, x, y):
 def is_corner(maze, x, y):
     neighbor_coords = [(x + 1, y), (x - 1, y), (x, y - 1), (x, y + 1)]
     wall_neighbors = list(filter(lambda i: is_wall(maze, i[0], i[1]), neighbor_coords))
+
     if len(wall_neighbors) == 3:
         return True
     if len(wall_neighbors) == 2:
@@ -61,7 +62,7 @@ def can_push_can(maze, robot_pos, can_pos, all_cans):
 # Gets neighbour coordinates and filters out illegal moves, returns valid robot moves
 def get_neighbours(maze, x, y):
     neighbor_coords = [(x + 1, y), (x - 1, y), (x, y - 1), (x, y + 1)]
-    neighbors = list(filter(lambda i: not is_wall(maze, i[0], i[1]), neighbor_coords))
+    neighbors = filter(lambda i: not is_wall(maze, i[0], i[1]), neighbor_coords)
     return neighbors
 
 
