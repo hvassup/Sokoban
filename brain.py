@@ -1,11 +1,11 @@
-from sokoban import get_neighbours, get_next_can_position, state_to_states, previous_state_map, clear, is_corner
-from sokoban_map import find_robot_pos, find_can_pos, print_game_state, find_goal_pos, game_state
-from BFS import BFS
 import time
-import gc
+
+from BFS import BFS
+from sokoban import clear
+from sokoban_map import find_robot_pos, find_can_pos, print_game_state, find_goal_pos
+
 
 def solve(maze):
-    previous_state_map = set()
     clear()
 
     all_cans = find_can_pos(maze)
