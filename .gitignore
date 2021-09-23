@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc
 .venv/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/other.xml
+/.idea/Sokoban.iml
+/.idea/vcs.xml
